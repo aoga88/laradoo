@@ -22,7 +22,7 @@
     <link href="/assets/plugins/bootstrap-loading/lada.min.css" rel="stylesheet">
     <link href="{{ mix('assets/css/style.css') }}" rel="stylesheet">
     <!-- END  MANDATORY STYLE -->
-    <script src="/assets/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="{{ mix('/assets/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js') }}"></script>
 </head>
 
 <body class="login fade-in" data-page="login">

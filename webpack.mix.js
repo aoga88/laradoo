@@ -18,6 +18,7 @@ mix
     .js('resources/assets/js/account.js', 'public/assets/js')
     .sass('resources/assets/sass/app.scss', 'public/css')
     .sass('resources/assets/sass/web.scss', 'public/css')
+    .combine('resources/assets/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js', 'public/assets/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js')
     .combine('resources/assets/plugins/jquery-1.11.1.min.js', 'public/assets/plugins/jquery-1.11.1.min.js')
     .combine('resources/assets/plugins/jquery-migrate-1.2.1.min.js', 'public/assets/plugins/jquery-migrate-1.2.1.min.js')
     .combine('resources/assets/plugins/jquery-ui/jquery-ui-1.11.2.min.js', 'public/assets/plugins/jquery-ui-1.11.2.min.js')
