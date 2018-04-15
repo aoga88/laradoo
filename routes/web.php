@@ -12,4 +12,13 @@
 */
 
 Auth::routes();
-Route::get('/', 'HomeController@index')->name('home')->middleware('auth');
+
+/**
+ * If your project has public website include you will need this public route for index
+ * and you can add as many public routes as you need here
+ *
+ * Route::get('/', 'HomeController@index')->name('home');
+ *
+ */
+
+Route::get('/', 'Admin\HomeController@index')->name('home');
