@@ -14,6 +14,11 @@
 Auth::routes();
 
 /**
+ * Remove the next line if you want to allow self user registration
+ */
+Route::get('/register', 'Auth\LoginController@showLoginForm')->name('register');
+
+/**
  * If your project has public website include you will need this public route for index
  * and you can add as many public routes as you need here
  *
